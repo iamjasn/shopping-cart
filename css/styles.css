@@ -1,0 +1,101 @@
+body {
+    background-image: -ms-linear-gradient(top, #FFFFFF 0%, #FAFFF7 50%, #DDEFD7 100%);
+    background-image: -moz-linear-gradient(top, #FFFFFF 0%, #FAFFF7 50%, #DDEFD7 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(0.5, #FAFFF7), color-stop(1, #DDEFD7));
+    background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #FAFFF7 50%, #DDEFD7 100%);
+    height: 800px;
+}
+
+header h2 {
+    padding-bottom: 80px;
+    color: gray;
+    opacity: .5;
+}
+
+.container {
+    width: 95%;
+}
+
+thead tr {
+    color: rgba(178, 73, 73, 1);
+    letter-spacing: 0.1em;
+}
+
+td.col-sm-1.col-md-1 {
+    vertical-align: middle;
+}
+
+input.form-control {
+    width: 5em;
+    margin: auto;
+    text-align: center;
+}
+
+.table>thead>tr>th {
+    border-bottom: none;
+}
+
+.message {
+    position: absolute;
+    float: right;
+    opacity: .8;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.message-container {
+    padding-bottom: 30px;
+}
+
+input[type=range].price-range {
+    display: inline;
+    width: 20%;
+    margin-right: 5%;
+}
+
+th.col-sm-4.col-md-2.text-center.price-label {
+    padding-left: 7%;
+}
+
+.product-price {
+    font-weight: bold;
+}
+
+section h3 {
+    color: rgb(32, 140, 21);
+    padding-top: 1em;
+}
+
+.discounted {
+    color: rgb(32, 188, 84);
+    font-style: italic;
+    letter-spacing: 0.1em;
+    font-size: 0.9em;
+}
+
+@-moz-document url-prefix() {
+  fieldset { display: table-cell; }
+}
+
+.animate.ng-show { 
+    -webkit-animation-duration: .5s; 
+    animation-duration: .5s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    -webkit-animation-timing-function: ease-in-out; 
+    animation-timing-function: ease-in-out; 
+} 
+
+@-webkit-keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;} 
+} 
+@keyframes fadeIn { 
+    0% {opacity: 0;} 
+    100% {opacity: 1;} 
+} 
+
+.fadeIn.ng-show { 
+    -webkit-animation-name: fadeIn; 
+    animation-name: fadeIn; 
+}
