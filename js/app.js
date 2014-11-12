@@ -1,4 +1,4 @@
-var storeApp = angular.module('storeApp', ['ui.bootstrap', 'ngAnimate'])
+var storeApp = angular.module('storeApp', ['ui.bootstrap'])
     .controller('StoreCtrl', ['$scope', '$timeout', function($scope, $timeout){
         $scope.products = [
         {'name': 'Product A', 'price': 20, 'quantity': 0, 'discounted': false},
