@@ -1,4 +1,4 @@
-supermarket
+shopping cart
 ===========
 
-Shopping cart exercise
+built with AngularJS
