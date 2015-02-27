@@ -1,4 +1,4 @@
 shopping cart
 ===========
 
-built with AngularJS
+Simple shopping cart interface built with AngularJS
